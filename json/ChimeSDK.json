@@ -1,0 +1,21 @@
+{
+  "Sources": [
+    {
+      "SourceType": "ChimeSdkMeeting",
+      "ChimeSdkMeetingLiveConnectorConfiguration": {
+        "Arn": "arn:aws:chime::122335780403:meeting:44219da7-9209-4540-a10a-2f50d78b2713",
+        "MuxType": "AudioWithActiveSpeakerVideo"
+      }
+    }
+  ],
+  "Sinks": [
+    {
+      "SinkType": "RTMP",
+      "RTMPConfiguration": {
+        "Url": "rtmps://0e6cddb5ae6f.global-contribute.live-video.net:443/app/",
+        "AudioChannels": "Stereo",
+        "AudioSampleRate": "48000"
+      }
+    }
+  ]
+}
